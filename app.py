@@ -179,8 +179,11 @@ with col3:
             "Contact the system administrator to reset your password."
         )
 
-
 st.divider()
+
+if st.button("Refresh Status", use_container_width=True):
+    st.success("Status refreshed successfully!")
+
 
 
 # --------------------------------------------------

@@ -1,19 +1,9 @@
 import streamlit as st
-
-# --------------------------------------------------
-# PAGE CONFIGURATION
-# --------------------------------------------------
-
 st.set_page_config(
     page_title="Vulnerability Management System",
     page_icon="🛡️",
     layout="wide"
 )
-
-
-# --------------------------------------------------
-# CUSTOM CSS
-# --------------------------------------------------
 
 st.markdown("""
 <style>
